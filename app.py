@@ -2,8 +2,8 @@ import streamlit as st
 import random
 import matplotlib.pyplot as plt
 import numpy as np
-from matplotlib import font_manager
-font_manager.findSystemFonts()
+
+plt.rcParams['font.family'] = 'Malgun Gothic'
 
 # Streamlit app setup
 st.set_page_config(page_title="교사 동물 유형 테스트 2.0", layout="centered")
