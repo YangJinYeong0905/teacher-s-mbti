@@ -3,7 +3,7 @@ import random
 import matplotlib.pyplot as plt
 import numpy as np
 
-plt.rcParams['font.family'] = 'nanum'
+plt.rcParams['font.family'] = 'Malgun Gothic'
 
 # Streamlit app setup
 st.set_page_config(page_title="교사 동물 유형 테스트 2.0", layout="centered")
