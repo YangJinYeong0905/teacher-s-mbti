@@ -78,7 +78,7 @@ else:
     chart_data = np.random.uniform(60, 100, 5)
     
     # Plot radar chart
-    labels = ['체계성', '유연성', '창의성', '친근성', '전문성']
+    labels = ['Systematization', 'flexibility', 'Creativity', 'Friendliness', 'Expertise']
     angles = np.linspace(0, 2 * np.pi, len(labels), endpoint=False).tolist()
     angles += angles[:1]
     chart_data = np.concatenate((chart_data, [chart_data[0]]))
